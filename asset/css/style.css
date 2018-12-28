@@ -43,6 +43,7 @@
 
 .hero {
   color: #222;
+  height: 15em;
 }
 
 #body .card-list, .info, .donasi, footer, .galery, .trailer {
