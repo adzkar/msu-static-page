@@ -45,7 +45,7 @@
   color: #222;
 }
 
-#body .card-list, .info, .donasi, footer {
+#body .card-list, .info, .donasi, footer, .galery, .trailer {
   margin-top: 200px;
 }
 
@@ -79,6 +79,20 @@
   font-size: 36px;
 }
 
+#body .galery .kotak {
+  /* width: 100px; */
+  height: 15em;
+  border-radius: 9px;
+  background-color: #C4C4C4;
+  margin-bottom: 2em;
+}
+
+#body .video {
+  background-color: #C4C4C4;
+  border-radius: 8px;
+  height: 30em;
+}
+
 #body .thumb .img img {
   margin-bottom: 1em;
   border-radius: 8px;
@@ -87,6 +101,20 @@
 #body .thumb .is-256x256 {
   width: 256px;
   height: 256px;
+}
+
+#body .buber-item {
+  margin-bottom: 2.5em;
+}
+
+#body .buber-item a  .title {
+  color: #10A957;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+#body .buber-item .subtitle {
+  font-size: 1.2em;
 }
 
 #body .sect a .title {
