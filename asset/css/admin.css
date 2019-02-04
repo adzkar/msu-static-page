@@ -1,0 +1,50 @@
+html,body {
+	height:100%;
+	width:100%;
+	margin:0;
+}
+body , body {
+	display:flex;
+	background-color: #10A957;
+	font-family: 'Arial';
+}
+form {
+	margin:auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+form img {
+	margin: auto;
+	width: 10vw;
+	display: block;
+	margin-bottom: 20px;
+}
+input {
+	padding: 10px;
+	width: 15em;
+	display: block;
+}
+input:focus {
+	border-bottom: 3px solid #10A957; 
+}
+input, button {
+	display: block;
+	font-size: 16px;
+	margin: 20px;
+	border: none;
+	border-bottom: 3px solid #ddd; 
+}
+button {
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	background-color: #10A957;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+}
+button:hover {
+	background-color: #10A990;
+}
