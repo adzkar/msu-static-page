@@ -43,7 +43,7 @@
     	<div class="sidebar-wrapper">
 
             <ul class="nav">
-                <li class="active">
+                <li>
                     <a href="#">
                         <i class="ti-minus"></i>
                         <p>Dashboard</p>
@@ -55,7 +55,7 @@
                         <p>Imam</p>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="aboutdb.html">
                         <i class="ti-minus"></i>
                         <p>About US</p>
@@ -116,9 +116,30 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="card">
-                        <div class="header">
-                            
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">About US</h4>
+                            </div>
+                            <div class="content">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="">Sejarah MSU</label>
+                                        <textarea rows="5" class="form-control border-input" placeholder="Type Here..." value="Mike" name="sejarah"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Visi Misi MSU</label>
+                                        <textarea rows="5" class="form-control border-input" placeholder="Type Here..." value="Mike" name="visi"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Struktur Pengurusan</label>
+                                        <input type="file" class="form-control" name="struktur">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Input</button> 
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
